@@ -25,8 +25,8 @@
 
     $cars[1] = 'Ford'; // Change the value of the first element
     var_dump($cars); // Output: array(3) { [0]=> string(6) "Toyota" [1]=> string(4) "Ford" [2]=> string(5) "Civic" }
-    
 
+    
     ?>
 </body>
 </html>
