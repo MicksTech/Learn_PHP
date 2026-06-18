@@ -15,9 +15,7 @@
     <?php 
     $apple = array('manggo', 'banana', 'grapes');
 
-    echo $apple[0]; // Output: manggo
-    echo $apple[1]; // Output: banana   
-    echo $apple[2]; // Output: grapes
+    print_r($apple); // Output: Array ( [0] => manggo [1] => banana [2] => grapes )
     ?>
     <br>
     <?php 

@@ -9,30 +9,30 @@
     <?php 
     $my_cars = "Honda";
 
-    echo "I have a {$my_cars} car.";
+    echo "I have a {$my_cars} car."; // Output: I have a Honda car.
     ?>
     <br>
     <?php 
     $var1 = 'Bob,';
-    echo $var1;
+    echo $var1 ;// Output: Bob,
 
     $var1 = 'John';
-    echo $var1;
+    echo $var1; // Output: John
     ?>
     <br>
     <?php 
-    echo "Hello,"."CodeAcademy";   
+    echo "Hello,"."CodeAcademy"; // Output: Hello,CodeAcademy 
     ?>
     <br>
     <?php 
-    $var = "hello,";
-    $var .= "world!";
+    $var = "hello,";// Concatenation Assignment Operator ( .= )
+    $var .= "world!";// Output: hello,world!
     
-    echo $var;
+    echo $var;// Output: hello,world!
     ?>
     <br>
     <?php 
-    echo "John _ 07"  
+    echo "John _ 07"//Array of characters (string)  
     ?>
     <br>
     <?php 
@@ -68,13 +68,13 @@
     <br>
     <?php
     $var = 4;
-    echo 2 ** 4;
+    echo 2 ** 4; // Output: 16
     ?>
     <br>
     <?php
     $var1 = 6 / 4; // Arithmetic Operators ( + , -, *, /)
 
-    echo $var1;
+    echo $var1; // Output: 1.5
     ?>
 </body>
 </html>
